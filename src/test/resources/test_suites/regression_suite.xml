@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Shiri/Documents/DemoQAWinter24">
+        <classes>
+            <class name="ButtonsTest"/>
+            <class name="FrameTest"/>
+            <class name="PracticeFormTest"/>
+        </classes>
+    </test>
+</suite>
