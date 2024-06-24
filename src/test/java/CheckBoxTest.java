@@ -7,14 +7,14 @@ import org.testng.annotations.Test;
 public class CheckBoxTest  extends BaseTest {
 
   @BeforeClass
-    @Test
+    @Test(groups = {"Regression","0932"},description = "textBoxTest")
     public void textBoxTest() {
         driver.get("https://demoqa.com/text-box");
        checkBoxPage.clickCheckBox();
 
     }
 
-    @Test
+    @Test(groups = {"Regression","0939"},description = "txt")
     void txt() {
         //   Получаем текст элемента
         String actualText = checkBoxPage.txt.getText();
@@ -42,7 +42,7 @@ public class CheckBoxTest  extends BaseTest {
         // Проверяем, что текст совпадает с ожидаемым
         Assert.assertEquals(actualText, expectedText, "не схожие");
     }
-    @Test
+    @Test(groups = {"Regression","0932"},description = "test")
         void test() {
        checkBoxPage.desktopGal();
         String actualTxtDesk = checkBoxPage.desktopGal.getText();

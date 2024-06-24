@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class BrowserHalperTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"E2E_Test","2356"}, description = "tes123")
     void test123() throws InterruptedException {
         browserHelper.open("https://demoqa.com/browser-windows");
         driver.findElement(By.id("tabButton")).click();

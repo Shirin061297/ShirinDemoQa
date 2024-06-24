@@ -1,11 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="E2E suite">
+<suite name="Regression suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Shiri/Documents/DemoQAWinter24">
         <classes>
             <class name="ButtonsTest"/>
-            <class name="FrameTest"/>
-            <class name="PracticeFormTest"/>
-
+            <class name="CheckBoxTest"/>
         </classes>
     </test>
 </suite>
